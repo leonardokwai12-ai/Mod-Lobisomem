@@ -1,0 +1,6 @@
+Como compilar (precisa de Java 21 e internet):
+1. Abra o terminal nesta pasta.
+2. Windows: gradlew.bat build    |  Linux/Mac: ./gradlew build
+3. O mod fica em build/libs/lobisomemmod-1.0.0.jar (NÃO use o -sources.jar)
+4. Coloque o .jar na pasta mods do Minecraft 1.21.1 com Fabric Loader + Fabric API.
+Se der erro, me mande a mensagem completa.

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "lobisomemmod",
+  "version": "1.0.0",
+  "name": "Mod Lobisomem e Rifle",
+  "description": "Adiciona Lobisomens noturnos que somem no sol, Rifle de gravetos e Balas de pedra.",
+  "authors": ["Criador"],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.lobisomem.mod.LobisomemMod"
+    ],
+    "client": [
+      "com.lobisomem.mod.LobisomemModClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
